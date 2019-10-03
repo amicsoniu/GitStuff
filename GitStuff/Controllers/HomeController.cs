@@ -8,7 +8,7 @@ using GitStuff.Models;
 
 namespace GitStuff.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         public IActionResult Index()
         {
