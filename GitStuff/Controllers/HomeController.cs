@@ -39,6 +39,11 @@ namespace GitStuff.Controllers
             return View();
         }
 
+        public IActionResult Michael()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
